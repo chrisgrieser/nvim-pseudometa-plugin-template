@@ -19,8 +19,8 @@ year=$(date +"%Y")
 # $1: placeholder name as {{mustache-template}}
 # $2: the replacement
 function replacePlaceholders() {
-	# INFO macOS' sed requires `sed -i ''`, remove the `''` when on Linux or using GNU sed
 	LC_ALL=C # prevent byte sequence error
+	# INFO macOS' sed requires `sed -i ''`, remove the `''` when on Linux or using GNU sed
 	find . -type f -not -path '*/\.git/*' -not -name ".DS_Store" -not -path '*/node_modules/*' -exec sed -i '' "s/{{$1}}/$2/g" {} \;
 }
 
@@ -30,6 +30,7 @@ replacePlaceholders "year" "$year"
 
 # for panvimdoc
 replacePlaceholders "plugin-short-name" "$name_short"
+mkdir -p ".doc/"
 touch "./doc/$name_short.txt" 
 
 osascript -e 'display notification "" with title "ℹ️ Write Permissions for workflow needed."'
