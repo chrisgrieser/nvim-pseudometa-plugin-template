@@ -1,5 +1,5 @@
 # nvim-plugin-name
-A description
+A description.
 
 <!--toc:start-->
 - [Features](#features)
@@ -16,7 +16,7 @@ A description
 ```lua
 -- packer
 use {
-	"chrisgrieser/nvim-various-textobjs",
+	"chrisgrieser/reponame",
 	config = function () 
 
 	end,
@@ -24,7 +24,7 @@ use {
 
 -- lazy.nvim
 {
-	"chrisgrieser/nvim-various-textobjs",
+	"chrisgrieser/reponame",
 	config = function () 
 
 	end,
