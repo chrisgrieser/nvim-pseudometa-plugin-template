@@ -1,5 +1,5 @@
-# nvim-plugin-name
-A description.
+# {{plugin-name}}
+{{plugin-desc}}
 
 <!--toc:start-->
 - [Features](#features)
@@ -16,7 +16,7 @@ A description.
 ```lua
 -- packer
 use {
-	"chrisgrieser/reponame",
+	"chrisgrieser/{{plugin-name}}",
 	config = function () 
 
 	end,
@@ -24,7 +24,7 @@ use {
 
 -- lazy.nvim
 {
-	"chrisgrieser/reponame",
+	"chrisgrieser/{{plugin-name}}",
 	config = function () 
 
 	end,

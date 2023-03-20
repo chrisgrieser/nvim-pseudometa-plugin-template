@@ -12,7 +12,9 @@ jobs:
       - name: panvimdoc
         uses: kdheepak/panvimdoc@main
         with:
-          vimdoc: various-textobjs
+          vimdoc: {{plugin-name-short}}
+          toc: true 
+          treesitter: true
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: "chore: Auto generate docs"
