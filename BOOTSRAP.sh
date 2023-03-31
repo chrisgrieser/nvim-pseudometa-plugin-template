@@ -5,7 +5,7 @@ set -e # abort when any command errors, prevents this script from self-removing 
 # plugin name is the same as the git repo name and can therefore be inferred
 repo=$(git remote -v | head -n1 | sed 's/\.git.*//' | sed 's/.*://')
 name=$(echo "$repo" | cut -d/ -f2)
-name_short=$(echo "$name" | cut -d"-" -f2)
+name_short=$(echo "$name" | cut -d"-" -f2-)
 
 # desc can be inferred from github description (not using jq for portability)
 desc=$(curl -sL "https://api.github.com/repos/$repo" | grep "description" | head -n1 | cut -d'"' -f4)
@@ -28,8 +28,8 @@ replacePlaceholders "plugin-name" "$name"
 replacePlaceholders "plugin-desc" "$desc"
 replacePlaceholders "year" "$year"
 
-osascript -e 'display notification "" with title "ℹ️ Write Permissions for workflow needed."'
-open -a "https://github.com/$repo/settings/actions"
+osascript -e 'display notification "" with title "ℹ️ Write permissions for workflows needed."'
+open "https://github.com/$repo/settings/actions"
 
 #───────────────────────────────────────────────────────────────────────────────
 # Create files
@@ -39,10 +39,12 @@ mkdir -p ./lua
 
 # for panvimdoc
 replacePlaceholders "plugin-short-name" "$name_short"
-mkdir -p ".doc/"
+mkdir -p ./doc/
 touch "./doc/$name_short.txt"
 
 #───────────────────────────────────────────────────────────────────────────────
+
+print "\033[1;32mSuccess. Script will delete itself."
 
 # make this script delete itself
 rm -- "$0"
