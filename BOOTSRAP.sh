@@ -21,12 +21,13 @@ year=$(date +"%Y")
 function replacePlaceholders() {
 	LC_ALL=C # prevent byte sequence error
 	# INFO macOS' sed requires `sed -i ''`, remove the `''` when on Linux or using GNU sed
-	find . -type f -not -path '*/\.git/*' -not -name ".DS_Store" -not -path '*/node_modules/*' -exec sed -i '' "s/{{$1}}/$2/g" {} \;
+	find . -type f -not -path '*/\.git/*' -not -name ".DS_Store" -exec sed -i '' "s/$1/$2/g" {} \;
 }
 
-replacePlaceholders "plugin-name" "$name"
-replacePlaceholders "plugin-desc" "$desc"
-replacePlaceholders "year" "$year"
+replacePlaceholders "{{plugin-name}}" "$name"
+replacePlaceholders "{{plugin-desc}}" "$desc"
+replacePlaceholders "{{year}}" "$year"
+replacePlaceholders "{{plugin-name-short}}" "$name_short"
 
 osascript -e 'display notification "" with title "ℹ️ Write permissions for workflows needed."'
 open "https://github.com/$repo/settings/actions"
