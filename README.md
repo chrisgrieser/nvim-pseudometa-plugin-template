@@ -35,7 +35,9 @@ use {
 
 ```lua
 -- default config
+opts = {
 
+}
 ```
 
 ## Limitations
