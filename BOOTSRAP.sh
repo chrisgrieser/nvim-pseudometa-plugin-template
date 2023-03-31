@@ -28,13 +28,19 @@ replacePlaceholders "plugin-name" "$name"
 replacePlaceholders "plugin-desc" "$desc"
 replacePlaceholders "year" "$year"
 
+osascript -e 'display notification "" with title "ℹ️ Write Permissions for workflow needed."'
+open -a "https://github.com/$repo/settings/actions"
+
+#───────────────────────────────────────────────────────────────────────────────
+# Create files
+
+# lua dir (since github does not save empty dirs)
+mkdir -p ./lua
+
 # for panvimdoc
 replacePlaceholders "plugin-short-name" "$name_short"
 mkdir -p ".doc/"
-touch "./doc/$name_short.txt" 
-
-osascript -e 'display notification "" with title "ℹ️ Write Permissions for workflow needed."'
-open -a "https://github.com/$repo/settings/actions"
+touch "./doc/$name_short.txt"
 
 #───────────────────────────────────────────────────────────────────────────────
 
