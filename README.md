@@ -34,7 +34,7 @@ use {
 ## Configuration
 
 ```lua
--- default config
+-- default values
 opts = {
 
 }
