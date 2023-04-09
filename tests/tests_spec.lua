@@ -1,28 +1,9 @@
-describe("parameter processing: ", function()
-	local parameters = require("alt-substitute.process-parameters")
+describe("some func", function()
+	local func = require("{{plugin-short-name}}")
 
 	it("Standard Case", function()
-		local input = "/search/repl/g"
-		local params = parameters.splitByUnescapedSlash(input)
-		assert.same({"search", "repl", "g"}, params)
-	end)
-
-	it("escaping the slash", function()
-		local input = [[/some\/path/repl/g]]
-		local params = parameters.splitByUnescapedSlash(input)
-		assert.same({"some/path", "repl", "g"}, params)
-	end)
-
-	it("empty replacement", function()
-		local input = [[/foobar//i]]
-		local params = parameters.splitByUnescapedSlash(input)
-		assert.same({"foobar", "", "i"}, params)
-	end)
-
-	it("no flags", function()
-		local input = [[/foo/bar/]]
-		local params = parameters.splitByUnescapedSlash(input)
-		assert.same({"foo", "bar"}, params)
+		local out = "value"
+		assert.equals("value", out)
 	end)
 
 end)
