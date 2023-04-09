@@ -33,10 +33,10 @@ osascript -e 'display notification "" with title "ℹ️ Write permissions for w
 open "https://github.com/$repo/settings/actions"
 
 #───────────────────────────────────────────────────────────────────────────────
-# Create files
+# Files
 
-# lua dir (since github does not save empty dirs)
-mkdir -p ./lua
+# Rename
+mv "./lua/plugin-name.lua" "./lua/$name_short.lua"
 
 # for panvimdoc
 replacePlaceholders "plugin-short-name" "$name_short"
