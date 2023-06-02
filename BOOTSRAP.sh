@@ -46,6 +46,7 @@ touch "./doc/$name_short.txt"
 #───────────────────────────────────────────────────────────────────────────────
 
 print "\033[1;32mSuccess. Script will delete itself."
+sleep 1
 
 # make this script delete itself
 rm -- "$0"
