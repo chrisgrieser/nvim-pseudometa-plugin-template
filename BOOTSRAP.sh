@@ -15,11 +15,13 @@ year=$(date +"%Y")
 
 #───────────────────────────────────────────────────────────────────────────────
 
+LC_ALL=C # prevent byte sequence error
+
 # replace them all
 # $1: placeholder name as {{mustache-template}}
 # $2: the replacement
 function replacePlaceholders() {
-	LC_ALL=C # prevent byte sequence error
+
 	# INFO macOS' sed requires `sed -i ''`, remove the `''` when on Linux or using GNU sed
 	find . -type f -not -path '*/\.git/*' -not -name ".DS_Store" -exec sed -i '' "s/$1/$2/g" {} \;
 }
