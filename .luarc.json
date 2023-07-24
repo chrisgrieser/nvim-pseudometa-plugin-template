@@ -1,9 +1,6 @@
 {
     "runtime.version": "LuaJIT",
     "diagnostics.globals": [
-        "vim",
-        "it",
-        "before_each",
-        "describe"
+        "vim"
     ]
 }
