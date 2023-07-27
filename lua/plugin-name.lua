@@ -5,6 +5,9 @@ function M.something()
 	
 end
 
+function M.setup()
+	
+end
+
 --------------------------------------------------------------------------------
 return M
-
