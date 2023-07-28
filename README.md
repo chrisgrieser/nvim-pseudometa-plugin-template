@@ -1,4 +1,6 @@
 # {{plugin-name}}
+<a href="https://dotfyle.com/plugins/chrisgrieser/{{plugin-name}}"><img src="https://dotfyle.com/plugins/chrisgrieser/{{plugin-name}}/shield" /></a>
+
 {{plugin-desc}}
 
 <!--toc:start-->
