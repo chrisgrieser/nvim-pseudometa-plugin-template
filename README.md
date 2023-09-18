@@ -1,4 +1,5 @@
-# {{plugin-name}}
+ <!-- LTeX: enabled=false -->
+# {{plugin-name}} <!-- LTeX: enabled=true -->
 <a href="https://dotfyle.com/plugins/chrisgrieser/{{plugin-name}}"><img src="https://dotfyle.com/plugins/chrisgrieser/{{plugin-name}}/shield" /></a>
 
 {{plugin-desc}}
