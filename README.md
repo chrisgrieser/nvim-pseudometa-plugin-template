@@ -21,19 +21,11 @@
 -- lazy.nvim
 {
 	"chrisgrieser/{{plugin-name}}",
-	opts = {
-		
-	},
 },
 
 -- packer
 use {
 	"chrisgrieser/{{plugin-name}}",
-	config = function () 
-		require("{{plugin-name-short}}").setup ({
-			
-		})
-	end,
 }
 ```
 
