@@ -5,13 +5,15 @@
 
 {{plugin-desc}}
 
-<!--toc:start-->
+<!-- toc -->
+
 - [Features](#features)
 - [Installation](#installation)
 - [Configuration](#configuration)
 - [Limitations](#limitations)
 - [Credits](#credits)
-<!--toc:end-->
+
+<!-- tocstop -->
 
 ## Features
 
