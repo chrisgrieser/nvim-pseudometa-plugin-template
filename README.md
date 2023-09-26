@@ -1,5 +1,6 @@
 <!-- LTeX: enabled=false -->
-# {{plugin-name}} <!-- LTeX: enabled=true -->
+# {{plugin-name}}
+<!-- LTeX: enabled=true -->
 <!-- TODO uncomment shields when available in dotfyle.com -->
 <!-- <a href="https://dotfyle.com/plugins/chrisgrieser/{{plugin-name}}"><img src="https://dotfyle.com/plugins/chrisgrieser/{{plugin-name}}/shield" /></a> -->
 
