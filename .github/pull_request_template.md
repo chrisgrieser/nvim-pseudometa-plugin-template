@@ -1,5 +1,5 @@
 ## Checklist
-- [ ] Adhere the `stylua.toml`.
+- [ ] Adhere to the `stylua.toml`.
 - [ ] Use camelCase variable names.
-- [ ] If functionaltiy is added or modified, also made changes to the readme.
+- [ ] If functionaltiy is added or modified, also made respective changes to the readme.
 - [ ] Use conventional commits keywords.
