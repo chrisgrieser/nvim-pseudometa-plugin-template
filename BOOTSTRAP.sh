@@ -21,7 +21,6 @@ LC_ALL=C # prevent byte sequence error
 # $1: placeholder name as {{mustache-template}}
 # $2: the replacement
 function replacePlaceholders() {
-
 	# INFO macOS' sed requires `sed -i ''`, remove the `''` when on Linux or using GNU sed
 	find . -type f -not -path '*/\.git/*' -not -name ".DS_Store" -exec sed -i '' "s/$1/$2/g" {} \;
 }
