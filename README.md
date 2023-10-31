@@ -38,10 +38,12 @@ use {
 ## Configuration
 
 ```lua
+-- default settings
 require("{{plugin-name}}").setup {}
 ```
 
 ## Limitations
+- 
 
 ## Credits
 <!-- vale Google.FirstPerson = NO -->
