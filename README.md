@@ -3,7 +3,7 @@
 <!-- LTeX: enabled=true -->
 <!-- TODO uncomment shields when available in dotfyle.com 
 <a href="https://dotfyle.com/plugins/chrisgrieser/{{plugin-name}}">
-<img src="https://dotfyle.com/plugins/chrisgrieser/{{plugin-name}}/shield" /></a>
+<img alt="badge" src="https://dotfyle.com/plugins/chrisgrieser/{{plugin-name}}/shield"/></a>
 -->
 
 {{plugin-desc}}
@@ -43,7 +43,7 @@ require("{{plugin-name}}").setup {}
 ```
 
 ## Limitations
-- 
+- WIP.
 
 ## Credits
 <!-- vale Google.FirstPerson = NO -->
