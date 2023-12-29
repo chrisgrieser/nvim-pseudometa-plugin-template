@@ -13,6 +13,7 @@
 - [Features](#features)
 - [Installation](#installation)
 - [Configuration](#configuration)
+- [Usage](#usage)
 - [Limitations](#limitations)
 - [Credits](#credits)
 
@@ -39,11 +40,16 @@ use {
 
 ```lua
 -- default settings
-require("{{plugin-name}}").setup {}
+require("{{plugin-name}}").setup ({
+
+})
 ```
 
+## Usage
+- …
+
 ## Limitations
-- WIP.
+- …
 
 ## Credits
 <!-- vale Google.FirstPerson = NO -->
