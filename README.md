@@ -40,7 +40,7 @@ use {
 
 ```lua
 -- default settings
-require("{{plugin-name}}").setup ({
+require("{{plugin-name-short}}").setup ({
 
 })
 ```
