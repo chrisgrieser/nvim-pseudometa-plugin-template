@@ -46,8 +46,8 @@ touch "./doc/$name_short.txt"
 
 #───────────────────────────────────────────────────────────────────────────────
 
-print "\033[1;32mSuccess. Script will delete itself."
-sleep 1
+git add --all && git commit -m "init: bootstrap"
 
-# make this script delete itself
-rm -- "$0"
+print "\e[1;32mSuccess.\e[0m"
+
+rm -- "$0" # make this script delete itself
