@@ -40,7 +40,6 @@ open "https://github.com/$repo/settings/actions"
 mv "./lua/plugin-name.lua" "./lua/$name_short.lua"
 
 # for panvimdoc
-replacePlaceholders "plugin-short-name" "$name_short"
 mkdir -p ./doc/
 touch "./doc/$name_short.txt"
 
