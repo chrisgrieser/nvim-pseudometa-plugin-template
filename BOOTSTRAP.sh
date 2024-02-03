@@ -8,7 +8,7 @@ name=$(echo "$repo" | cut -d/ -f2)
 name_short=$(echo "$name" | sed -e 's/.nvim$//' -e 's/^nvim-//')
 
 # desc can be inferred from github description (not using jq for portability)
-desc=$(curl -sL "https://api.github.com/repos/$repo" | grep "description" | head -n1 | cut -d'"' -f4)
+desc=$(curl -sL "https://api.github.com/repos/$repo" | grep --max-count=1 "description" | cut -d'"' -f4)
 
 # current year for license
 year=$(date +"%Y")
