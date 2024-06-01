@@ -1,12 +1,12 @@
 <!-- LTeX: enabled=false -->
-# {{plugin-name}}
+# %%plugin-name%%
 <!-- LTeX: enabled=true -->
 <!-- TODO uncomment shields when available in dotfyle.com 
-<a href="https://dotfyle.com/plugins/chrisgrieser/{{plugin-name}}">
-<img alt="badge" src="https://dotfyle.com/plugins/chrisgrieser/{{plugin-name}}/shield"/></a>
+<a href="https://dotfyle.com/plugins/chrisgrieser/%%plugin-name%%">
+<img alt="badge" src="https://dotfyle.com/plugins/chrisgrieser/%%plugin-name%%/shield"/></a>
 -->
 
-{{plugin-desc}}
+%%plugin-desc%%
 
 <!-- toc -->
 
@@ -27,12 +27,12 @@
 ```lua
 -- lazy.nvim
 {
-	"chrisgrieser/{{plugin-name}}",
+	"chrisgrieser/%%plugin-name%%",
 },
 
 -- packer
 use {
-	"chrisgrieser/{{plugin-name}}",
+	"chrisgrieser/%%plugin-name%%",
 }
 ```
 
@@ -40,7 +40,7 @@ use {
 
 ```lua
 -- default settings
-require("{{plugin-name-short}}").setup ({
+require("%%plugin-name-short%%").setup ({
 
 })
 ```

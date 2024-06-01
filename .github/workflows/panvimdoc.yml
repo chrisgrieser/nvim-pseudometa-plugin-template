@@ -16,7 +16,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: kdheepak/panvimdoc@main
         with:
-          vimdoc: pseudometa
+          vimdoc: "%%plugin-name-short%%"
           toc: true
           treesitter: true
           demojify: true
