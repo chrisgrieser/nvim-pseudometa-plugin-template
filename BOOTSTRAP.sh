@@ -34,7 +34,7 @@ replacePlaceholders "%%plugin-name-short%%" "$name_short"
 
 #───────────────────────────────────────────────────────────────────────────────
 # Files
-mkdir ./lua
+mkdir -p "./lua/$name_short"
 
 # for panvimdoc
 mkdir ./doc
