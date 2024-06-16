@@ -52,7 +52,7 @@ require("%%plugin-name-short%%").setup ({
 - …
 
 <!-- vale Google.FirstPerson = NO -->
-## About the developer
+## About me
 In my day job, I am a sociologist studying the social mechanisms underlying the
 digital economy. For my PhD project, I investigate the governance of the app
 economy and how software ecosystems manage the tension between innovation and
