@@ -31,6 +31,7 @@ replacePlaceholders "%%plugin-name%%" "$name"
 replacePlaceholders "%%plugin-desc%%" "$desc"
 replacePlaceholders "%%year%%" "$year"
 replacePlaceholders "%%plugin-name-short%%" "$name_short"
+replacePlaceholders "%%plugin-repo%%" "$repo"
 
 #───────────────────────────────────────────────────────────────────────────────
 # Files
