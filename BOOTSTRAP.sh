@@ -22,9 +22,9 @@ bootstrap_file=$(basename "$0")
 # $1: placeholder name as {{mustache-template}}
 # $2: the replacement
 function replacePlaceholders() {
-	# INFO macOS' sed requires `sed -i ''`, remove the `''` when on Linux or using GNU sed
+	# INFO macOS' sed requires `sed -i ''`, remove the `''` when on Linux or using GNU-sed
 	find . -type f -not -path '*/\.git/*' -not -name ".DS_Store" -not -name "$bootstrap_file" -exec \
-		sed -i '' "s/$1/$2/g" {} \;
+		sed -i '' "s|$1|$2|g" {} \;
 }
 
 replacePlaceholders "%%plugin-name%%" "$name"
