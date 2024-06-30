@@ -15,7 +15,7 @@
 - [Configuration](#configuration)
 - [Usage](#usage)
 - [Limitations](#limitations)
-- [Credits](#credits)
+- [About the author](#about-the-author)
 
 <!-- tocstop -->
 
@@ -40,9 +40,9 @@ use {
 
 ```lua
 -- default settings
-require("%%plugin-name-short%%").setup ({
+require("%%plugin-name-short%%").setup {
 
-})
+}
 ```
 
 ## Usage
