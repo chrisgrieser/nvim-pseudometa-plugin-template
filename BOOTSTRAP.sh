@@ -14,7 +14,6 @@ year=$(date +"%Y")
 desc=$(curl -sL "https://api.github.com/repos/$repo" |
 	grep --max-count=1 "description" | cut -d'"' -f4)
 
-
 #───────────────────────────────────────────────────────────────────────────────
 # PLACEHOLDERS
 
@@ -36,7 +35,9 @@ replacePlaceholders "PLACEHOLDER_plugin_repo" "$repo"
 # FILES
 
 mv "./lua/PLACEHOLDER_plugin_name_short" "./lua/$name_short"
-mv "./doc/PLACEHOLDER_plugin_name_short.txt" "./doc/$name_short.txt"
+
+# not `mv` existing file, as it otherwise triggers the github action
+mkdir "./doc" && touch "./doc/$name_short.txt"
 
 rm -- "$0" # make this script delete itself
 
