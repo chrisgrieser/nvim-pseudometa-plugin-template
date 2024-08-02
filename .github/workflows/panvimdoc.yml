@@ -6,10 +6,12 @@ on:
     paths:
       - README.md # source file
       - .github/workflows/panvimdoc.yml # updates to this file itself
-  workflow_dispatch:
+  workflow_dispatch: # manually trigger
 
 permissions:
   contents: write
+
+#───────────────────────────────────────────────────────────────────────────────
 
 jobs:
   docs:
@@ -17,12 +19,14 @@ jobs:
     name: README.md to vimdoc
     steps:
       - uses: actions/checkout@v4
+
       - uses: kdheepak/panvimdoc@main
         with:
-          vimdoc: pseudometa-plugin-template
+          vimdoc: PLACEHOLDER_plugin_name_short
           demojify: true
           treesitter: true
           description: " Auto-generated from README.md. Do not make PRs to this file."
+
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: "chore: auto-generate vimdocs"

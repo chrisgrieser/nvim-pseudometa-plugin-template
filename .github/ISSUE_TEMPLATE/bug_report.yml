@@ -22,7 +22,8 @@ body:
     id: screenshot
     attributes:
       label: Relevant Screenshot
-      description: If applicable, add screenshots or a screen recording to help explain your problem.
+      description:
+        If applicable, add screenshots or a screen recording to help explain your problem.
   - type: textarea
     id: reproduction-steps
     attributes:
@@ -30,9 +31,9 @@ body:
       description: Steps to reproduce the problem
       placeholder: |
         For example:
-        1. Go to '...'
-        2. Click on '...'
-        3. Scroll down to '...'
+        1. Go to…
+        2. Click on…
+        3. Scroll down to…
     validations: { required: true }
   - type: textarea
     id: version-info
@@ -44,12 +45,13 @@ body:
     id: repro-lua
     attributes:
       label: Minimal reproducible config
-      description: Minimal config to reproduce the issue. Save as `repro.lua` and run with `nvim -u repro.lua`
+      description:
+        Minimal config to reproduce the issue. Save as `repro.lua` and run with `nvim -u repro.lua`
       render: lua
       value: |
         local spec = {
         	{
-        		"%%plugin-repo%%",
+        		"PLACEHOLDER_plugin_repo",
         		opts = {}, -- insert config here
         	},
         }

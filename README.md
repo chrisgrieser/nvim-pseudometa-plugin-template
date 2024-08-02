@@ -1,12 +1,12 @@
 <!-- LTeX: enabled=false -->
-# %%plugin-name%%
+# PLACEHOLDER_plugin_name
 <!-- LTeX: enabled=true -->
 <!-- TODO uncomment shields when available in dotfyle.com 
-<a href="https://dotfyle.com/plugins/chrisgrieser/%%plugin-name%%">
-<img alt="badge" src="https://dotfyle.com/plugins/chrisgrieser/%%plugin-name%%/shield"/></a>
+<a href="https://dotfyle.com/plugins/chrisgrieser/PLACEHOLDER_plugin_name">
+<img alt="badge" src="https://dotfyle.com/plugins/chrisgrieser/PLACEHOLDER_plugin_name/shield"/></a>
 -->
 
-%%plugin-desc%%
+PLACEHOLDER_plugin_desc
 
 <!-- toc -->
 
@@ -20,19 +20,19 @@
 <!-- tocstop -->
 
 ## Features
--
+- …
 
 ## Installation
 
 ```lua
 -- lazy.nvim
 {
-	"chrisgrieser/%%plugin-name%%",
+	"chrisgrieser/PLACEHOLDER_plugin_name",
 },
 
 -- packer
 use {
-	"chrisgrieser/%%plugin-name%%",
+	"chrisgrieser/PLACEHOLDER_plugin_name",
 }
 ```
 
@@ -40,8 +40,8 @@ use {
 
 ```lua
 -- default settings
-require("%%plugin-name-short%%").setup {
-
+require("PLACEHOLDER_plugin_name_short").setup {
+	enabled = true,
 }
 ```
 
