@@ -19,6 +19,18 @@ body:
       description: A clear and concise description of the feature.
     validations: { required: true }
   - type: textarea
+    id: problem-solved
+    attributes:
+      label: Problem solved
+      description: What problem would the feature solve?
+    validations: { required: true }
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives
+      description: What alternatives are there to the feature?
+    validations: { required: true }
+  - type: textarea
     id: screenshot
     attributes:
       label: Relevant Screenshot
