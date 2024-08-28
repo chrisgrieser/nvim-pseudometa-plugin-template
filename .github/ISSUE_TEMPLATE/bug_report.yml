@@ -39,6 +39,7 @@ body:
     id: version-info
     attributes:
       label: neovim version
+      description: "Run `nvim --version` to get it."
       render: Text
     validations: { required: true }
   - type: textarea
