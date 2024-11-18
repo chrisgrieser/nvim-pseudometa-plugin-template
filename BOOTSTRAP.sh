@@ -26,11 +26,12 @@ function replacePlaceholders() {
 		sed -i '' "s|$1|$2|g" {} \;
 }
 
-replacePlaceholders "" "$name_short"
+# longer placeholders first
 replacePlaceholders "PLACEHOLDER_plugin_name_short_capitalized" "$name_short_cap"
+replacePlaceholders "PLACEHOLDER_plugin_name_short" "$name_short"
 replacePlaceholders "PLACEHOLDER_plugin_repo" "$repo"
-replacePlaceholders "PLACEHOLDER_plugin_name" "$name"
 replacePlaceholders "PLACEHOLDER_plugin_desc" "$desc"
+replacePlaceholders "PLACEHOLDER_plugin_name" "$name"
 replacePlaceholders "PLACEHOLDER_year" "$year"
 
 #───────────────────────────────────────────────────────────────────────────────
