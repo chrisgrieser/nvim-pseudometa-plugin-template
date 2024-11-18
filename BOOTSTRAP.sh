@@ -36,13 +36,12 @@ replacePlaceholders "PLACEHOLDER_plugin_repo" "$repo"
 
 mv "./lua/PLACEHOLDER_plugin_name_short" "./lua/$name_short"
 
-# creating file instead of renaming it, since an existing file would trigger the 
+# creating file instead of renaming it, since an existing file would trigger the
 # github actions
 mkdir "./doc" && touch "./doc/$name_short.txt"
 
 #───────────────────────────────────────────────────────────────────────────────
 
+rm -- "$0" # delete this file itself
 git add --all && git commit -m "init: bootstrap"
 print "\e[1;32mSuccess.\e[0m"
-
-rm -- "$0" # make this script delete itself
