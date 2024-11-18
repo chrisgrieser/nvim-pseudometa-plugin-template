@@ -51,7 +51,6 @@ require("PLACEHOLDER_plugin_name_short").setup {
 ## Limitations
 - …
 
-<!-- vale Google.FirstPerson = NO -->
 ## About the author
 In my day job, I am a sociologist studying the social mechanisms underlying the
 digital economy. For my PhD project, I investigate the governance of the app
