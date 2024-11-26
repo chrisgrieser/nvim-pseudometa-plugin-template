@@ -37,12 +37,10 @@ replacePlaceholders "PLACEHOLDER_year" "$year"
 #───────────────────────────────────────────────────────────────────────────────
 # FILES
 
+# `panvimdoc` will generate the correctly named help file later
+rm doc/nvim-pseudometa-plugin-template.txt
+
 mv "./lua/PLACEHOLDER_plugin_name_short" "./lua/$name_short"
-
-# creating file instead of renaming it, since an existing file would trigger the
-# github actions
-mkdir "./doc" && touch "./doc/$name_short.txt"
-
 rm "$this_file"
 
 #───────────────────────────────────────────────────────────────────────────────
