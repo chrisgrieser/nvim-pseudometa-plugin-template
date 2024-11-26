@@ -1,6 +1,17 @@
 *nvim-pseudometa-plugin-template.txt* For Neovim Last change: 2024 November 26
 
 ==============================================================================
+Table of Contents          *nvim-pseudometa-plugin-template-table-of-contents*
+
+1. PLACEHOLDER_plugin_name|nvim-pseudometa-plugin-template-placeholder_plugin_name|
+  - Features|nvim-pseudometa-plugin-template-placeholder_plugin_name-features|
+  - Installation|nvim-pseudometa-plugin-template-placeholder_plugin_name-installation|
+  - Configuration|nvim-pseudometa-plugin-template-placeholder_plugin_name-configuration|
+  - Usage      |nvim-pseudometa-plugin-template-placeholder_plugin_name-usage|
+  - Limitations|nvim-pseudometa-plugin-template-placeholder_plugin_name-limitations|
+  - About the author|nvim-pseudometa-plugin-template-placeholder_plugin_name-about-the-author|
+
+==============================================================================
 1. PLACEHOLDER_plugin_name*nvim-pseudometa-plugin-template-placeholder_plugin_name*
 
 PLACEHOLDER_plugin_desc
