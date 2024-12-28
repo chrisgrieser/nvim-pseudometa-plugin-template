@@ -1,6 +1,6 @@
 name: Feature request
 description: Suggest an idea
-title: "Feature Request: "
+title: "Feature request: "
 labels: ["enhancement"]
 body:
   - type: checkboxes
@@ -15,7 +15,7 @@ body:
   - type: textarea
     id: feature-requested
     attributes:
-      label: Feature Requested
+      label: Feature requested
       description: A clear and concise description of the feature.
     validations: { required: true }
   - type: textarea
@@ -33,5 +33,5 @@ body:
   - type: textarea
     id: screenshot
     attributes:
-      label: Relevant Screenshot
+      label: Relevant screenshot
       description: If applicable, add screenshots or a screen recording to help explain the request.
