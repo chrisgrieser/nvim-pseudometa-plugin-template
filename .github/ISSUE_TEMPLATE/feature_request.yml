@@ -1,6 +1,6 @@
 name: Feature request
 description: Suggest an idea
-title: "Feature request: "
+title: "FR: "
 labels: ["enhancement"]
 body:
   - type: checkboxes
@@ -9,6 +9,8 @@ body:
       label: Checklist
       options:
         - label: I have read the README.
+          required: true
+        - label: I have searched the existing issues for this plugin.
           required: true
         - label: The feature would be useful to more users than just me.
           required: true
