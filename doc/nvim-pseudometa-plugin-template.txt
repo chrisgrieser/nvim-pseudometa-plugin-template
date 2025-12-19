@@ -1,18 +1,18 @@
-*nvim-pseudometa-plugin-template.txt*    For Neovim   Last change: 2025 May 03
+*nvim-pseudometa-plugin-template.txt* For Neovim Last change: 2025 December 19
 
 ==============================================================================
 Table of Contents          *nvim-pseudometa-plugin-template-table-of-contents*
 
-1. PLACEHOLDER_plugin_name|nvim-pseudometa-plugin-template-placeholder_plugin_name|
-  - Features|nvim-pseudometa-plugin-template-placeholder_plugin_name-features|
-  - Installation|nvim-pseudometa-plugin-template-placeholder_plugin_name-installation|
-  - Configuration|nvim-pseudometa-plugin-template-placeholder_plugin_name-configuration|
-  - Usage      |nvim-pseudometa-plugin-template-placeholder_plugin_name-usage|
-  - Limitations|nvim-pseudometa-plugin-template-placeholder_plugin_name-limitations|
-  - About the author|nvim-pseudometa-plugin-template-placeholder_plugin_name-about-the-author|
+1. PLACEHOLDER_plugin_name |nvim-pseudometa-plugin-template-placeholder_plugin_name-|
+  - Features|nvim-pseudometa-plugin-template-placeholder_plugin_name--features|
+  - Installation|nvim-pseudometa-plugin-template-placeholder_plugin_name--installation|
+  - Configuration|nvim-pseudometa-plugin-template-placeholder_plugin_name--configuration|
+  - Usage     |nvim-pseudometa-plugin-template-placeholder_plugin_name--usage|
+  - Limitations|nvim-pseudometa-plugin-template-placeholder_plugin_name--limitations|
+  - About the author|nvim-pseudometa-plugin-template-placeholder_plugin_name--about-the-author|
 
 ==============================================================================
-1. PLACEHOLDER_plugin_name*nvim-pseudometa-plugin-template-placeholder_plugin_name*
+1. PLACEHOLDER_plugin_name *nvim-pseudometa-plugin-template-placeholder_plugin_name-*
 
 PLACEHOLDER_plugin_desc
 
@@ -24,12 +24,12 @@ PLACEHOLDER_plugin_desc
 - |nvim-pseudometa-plugin-template-about-the-author|
 
 
-FEATURES    *nvim-pseudometa-plugin-template-placeholder_plugin_name-features*
+FEATURES   *nvim-pseudometa-plugin-template-placeholder_plugin_name--features*
 
 - …
 
 
-INSTALLATION*nvim-pseudometa-plugin-template-placeholder_plugin_name-installation*
+INSTALLATION*nvim-pseudometa-plugin-template-placeholder_plugin_name--installation*
 
 >lua
     -- lazy.nvim
@@ -44,7 +44,7 @@ INSTALLATION*nvim-pseudometa-plugin-template-placeholder_plugin_name-installatio
 <
 
 
-CONFIGURATION*nvim-pseudometa-plugin-template-placeholder_plugin_name-configuration*
+CONFIGURATION*nvim-pseudometa-plugin-template-placeholder_plugin_name--configuration*
 
 >lua
     -- default settings
@@ -54,17 +54,17 @@ CONFIGURATION*nvim-pseudometa-plugin-template-placeholder_plugin_name-configurat
 <
 
 
-USAGE          *nvim-pseudometa-plugin-template-placeholder_plugin_name-usage*
+USAGE         *nvim-pseudometa-plugin-template-placeholder_plugin_name--usage*
 
 - …
 
 
-LIMITATIONS*nvim-pseudometa-plugin-template-placeholder_plugin_name-limitations*
+LIMITATIONS*nvim-pseudometa-plugin-template-placeholder_plugin_name--limitations*
 
 - …
 
 
-ABOUT THE AUTHOR*nvim-pseudometa-plugin-template-placeholder_plugin_name-about-the-author*
+ABOUT THE AUTHOR*nvim-pseudometa-plugin-template-placeholder_plugin_name--about-the-author*
 
 In my day job, I am a sociologist studying the social mechanisms underlying the
 digital economy. For my PhD project, I investigate the governance of the app

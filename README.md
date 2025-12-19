@@ -1,7 +1,5 @@
-<!-- LTeX: enabled=false -->
-# PLACEHOLDER_plugin_name
-<!-- LTeX: enabled=true -->
-<!-- TODO uncomment shields when available in dotfyle.com 
+# PLACEHOLDER_plugin_name <!-- rumdl-disable-line MD063 `nvim` lowercased -->
+<!-- TODO uncomment shields when available in dotfyle.com
 <a href="https://dotfyle.com/plugins/chrisgrieser/PLACEHOLDER_plugin_name">
 <img alt="badge" src="https://dotfyle.com/plugins/chrisgrieser/PLACEHOLDER_plugin_name/shield"/></a>
 -->
