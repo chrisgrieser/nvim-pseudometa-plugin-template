@@ -7,14 +7,12 @@
 PLACEHOLDER_plugin_desc
 
 <!-- toc -->
-
 - [Features](#features)
 - [Installation](#installation)
 - [Configuration](#configuration)
 - [Usage](#usage)
 - [Limitations](#limitations)
 - [About the author](#about-the-author)
-
 <!-- tocstop -->
 
 ## Features
@@ -23,15 +21,16 @@ PLACEHOLDER_plugin_desc
 ## Installation
 
 ```lua
+-- vim.pack
+vim.pack.add {
+	"https://github.com/chrisgrieser/PLACEHOLDER_plugin_name",
+}
+
 -- lazy.nvim
 {
 	"chrisgrieser/PLACEHOLDER_plugin_name",
 },
 
--- packer
-use {
-	"chrisgrieser/PLACEHOLDER_plugin_name",
-}
 ```
 
 ## Configuration
