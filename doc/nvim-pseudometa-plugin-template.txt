@@ -1,4 +1,4 @@
-*nvim-pseudometa-plugin-template.txt* For Neovim Last change: 2026 February 11
+*nvim-pseudometa-plugin-template.txt*   For Neovim  Last change: 2026 April 03
 
 ==============================================================================
 Table of Contents          *nvim-pseudometa-plugin-template-table-of-contents*
@@ -32,15 +32,15 @@ FEATURES   *nvim-pseudometa-plugin-template-placeholder_plugin_name--features*
 INSTALLATION*nvim-pseudometa-plugin-template-placeholder_plugin_name--installation*
 
 >lua
+    -- vim.pack
+    vim.pack.add {
+        "https://github.com/chrisgrieser/PLACEHOLDER_plugin_name",
+    }
+    
     -- lazy.nvim
     {
         "chrisgrieser/PLACEHOLDER_plugin_name",
     },
-    
-    -- packer
-    use {
-        "chrisgrieser/PLACEHOLDER_plugin_name",
-    }
 <
 
 
