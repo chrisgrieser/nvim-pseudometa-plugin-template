@@ -22,9 +22,7 @@ PLACEHOLDER_plugin_desc
 
 ```lua
 -- vim.pack
-vim.pack.add {
-	"https://github.com/chrisgrieser/PLACEHOLDER_plugin_name",
-}
+vim.pack.add ({ "https://github.com/chrisgrieser/PLACEHOLDER_plugin_name" })
 
 -- lazy.nvim
 {
